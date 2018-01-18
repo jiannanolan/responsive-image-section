@@ -10,13 +10,43 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  margin: 0;
+  background-color: #e2e2e2;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 
+section {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.cocoa {
+  font-weight: bold;
+}
+
+a {
+  padding: 0.5em 0.75em;
+  background-color: #555;
+  color: #fff;
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+}
 
 @media only screen and (min-width: 25em) {
   html {
@@ -51,7 +81,3 @@ html {
 Typefaces: sans-serif
 Colours: #e2e2e2, #000, #555
 Paddings: 1rem, 2rem
-Button padding: 0.5em 0.75em
-Button rounded corners: 4px
-Standard media query widths: 25em, 38em, 60em, 90em
-Standard text sizes & line heights: 100%/1.3, 110%/1.4, 120%/1.5, 130%/1.5
