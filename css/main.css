@@ -39,6 +39,7 @@ h1 {
 
 .desc {
   margin-top: 0;
+  text-align: left;
 }
 
 a {
@@ -46,6 +47,7 @@ a {
   background-color: #555;
   color: #fff;
   border-radius: 4px;
+  text-align: center;
 }
 
 img {
@@ -84,11 +86,15 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
   }
 
+  section {
+    padding: 2rem;
+  }
 
 }
 
